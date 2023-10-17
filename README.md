@@ -37,14 +37,16 @@ To change the background, you can use `#img bg: background-evening.png`. The bac
 
 ## Speaker Tags
 
-Start a line with `Fred:` or `Gertrude:` or whatever to set the current speaker tag for the transcript. Set `VAR strip_speaker_tags = true` to strip these out of the displayed dialogue and show them only in the transcript.
+Start a line with `Fred:` or `Gertrude:` or whatever to set the current speaker tag for the transcript.
 
-If the same person is speaking multiple consecutive lines, you can leave out the tag on the later ones and it'll be automatically added.
+If the same person is speaking multiple consecutive lines, you can leave out the tag on the later ones and it'll be automatically added. But you probably want to put a speaker tag at the start of each named knot or stitch, in case the player comes to it from a place where someone different is speaking.
+
+By default, speaker tags will be shown for the NPCs but not for the player choices. Set `VAR strip_speaker_tags = true` to strip these entirely. Use `false` to show them everywhere (even in player choices), or `"player"` for the default behavior.
 
 
 ## Styling
 
-TODO
+Hopefully the CSS isn't too hard to follow. I have at least put all the basic colors for both dark and light modes in variables at the top of the file so they're all in one place.
 
 
 ## Other Ink Commands (tags)
