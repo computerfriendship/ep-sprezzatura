@@ -70,7 +70,7 @@ let story
 	}})
 
 	N(document.getElementById('theme'), {'click': e => {
-		setTheme(!document.body.classList.contains('dark'))
+		setTheme(!document.documentElement.classList.contains('dark'))
 	}})
 	N(document.getElementById('history'), {'click': e => {
 		historyContainer.classList.add('show')
@@ -217,7 +217,7 @@ let story
 				const m = "(prefers-color-scheme: dark)"
 				dark = window.matchMedia(m).matches;
 			}
-			const classes = document.body.classList
+			const classes = document.documentElement.classList
 			if(dark) classes.add('dark')
 			else classes.remove('dark')
 			window.localStorage.setItem('theme', dark ? 'dark' : '')
