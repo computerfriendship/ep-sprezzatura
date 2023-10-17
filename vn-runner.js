@@ -120,6 +120,15 @@ let story
 	}
 
 	const images = {}
+	function clearImage(tag) {
+		const img = images[tag]
+		if(img && img.elt) {
+			img.elt.remove()
+			delete img.elt
+			delete images[tag]
+			if(tag === 'bg') delete camera.style['background-image']
+		}
+	}
 	function setImage(str) {
 		const err = ()=>{throw new Error("invalid image command: #"+str)}
 		const args = str.trim().split(/\s+/)
@@ -136,12 +145,7 @@ let story
 		const cameras = document.querySelectorAll('.camera')
 		const camera = cameras[0].firstElementChild
 		if(file == null && coords.length === 0) {
-			if(img) {
-				img.elt.remove()
-				delete img.elt
-				delete images[tag]
-				if(tag === 'bg') delete camera.style['background-image']
-			}
+			clearImage(tag)
 			return
 		} else if(tag == 'bg') {
 			if(file == null || coords.length !== 0) err()
@@ -251,7 +255,7 @@ let story
 			if(state.ink.alert) document.body.classList.add('alert')
 			story.state.LoadJson(state.ink)
 			speechTags = state.speechTags
-			for(const i of state.img) setImage(i)
+			deserializeImages(state.img)
 			continueStory()
 			return true
 		} catch(e) {
@@ -280,6 +284,7 @@ let story
 	}
 
 	function clearContent() {
+		for(const tag in images) clearImage(tag)
 		document.body.classList.remove('alert')
 		document.querySelector('.chat').textContent = ''
 		chatHistory.textContent = ''
