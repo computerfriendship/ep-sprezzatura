@@ -430,7 +430,6 @@ let story
 	}
 	if(!urlTarget) loadGameFromBrowser()
 	choicePoint = story.state.toJson()
-    continueStory()
 
 })(storyContent);
 
