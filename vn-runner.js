@@ -75,6 +75,7 @@ let story
 	}})
 	N(document.getElementById('history'), {'click': e => {
 		historyContainer.classList.add('show')
+		historyContainer.querySelector('.close').focus()
 	}})
 	const confirmRestart = document.getElementById('confirm-restart')
 	N(document.getElementById('restart'), {'click': e => {
