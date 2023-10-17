@@ -1,5 +1,19 @@
 :root {
 	--sz: 3vh;
+	--screen-bg: linear-gradient(to bottom right, #4b9edb, #3bd2da);
+	--app-bg: #e6e7f1;
+	--text: #1d2767;
+	--text-bg: #c6c9df;
+	--chat-box-border: thin solid black;
+	--link: #0066cc;
+}
+.dark {
+	--screen-bg: linear-gradient(to bottom right, #285b80, #1d777c);
+	--app-bg: #1d1d1d;
+	--text: #dde1fd;
+	--text-bg: #35374f;
+	--chat-box-border: thin solid white;
+	--link: #9da5d4;
 }
 .camera > div {
 	background-image: url("img/background-daytime.png");
@@ -16,11 +30,8 @@ body {
 	margin: 0;
 	padding: 5vh;
     font-family: sans-serif;
-	background: linear-gradient(to bottom right, #4b9edb, #3bd2da);
+	background: var(--screen-bg);
 	font-size: var(--sz);
-}
-body.dark {
-	background: linear-gradient(to bottom right, #285b80, #1d777c);
 }
 
 div { margin: 0; padding: 0 }
@@ -30,7 +41,7 @@ div { margin: 0; padding: 0 }
 .app {
 	position: relative;
 	box-sizing: border-box;
-	background: #e6e7f1;
+	background: var(--app-bg);
 	border-radius: 1em;
 	max-width: 90vh;
 	min-height: 90vh;
@@ -39,7 +50,6 @@ div { margin: 0; padding: 0 }
 	flex-direction: column;
 	justify-content: space-between;
 }
-.dark .app { background: #1d1d1d; }
 
 .alert .camera { display: none; }
 .camera {
@@ -62,23 +72,18 @@ div { margin: 0; padding: 0 }
 .chat-box {
 	flex: 1;
 	min-height: 25%;
-	background: #c6c9df;
-	color: #1d2767;
+	background: var(--text-bg);
+	color: var(--text);
 	margin: 1ex 1em;
 	border-radius: 2em;
 	padding: 1em 1.5em;
 }
-.menu .chat-box { border: thin solid black; }
-.dark .menu .chat-box { border: thin solid white; }
+.menu .chat-box { border: var(--chat-box-border); }
 .alert .chat-box { flex: 0; text-align: center; }
-.dark .chat-box {
-	background: #35374f;
-	color: #dde1fd;
-}
 .chat > p:first-child { margin: 0; }
 .chat > p { margin-bottom: 0; }
 .continue { border: none; animation: alternate 1s infinite pulse ease-in-out; }
-.dark a { color: #9da5d4; }
+a { color: var(--link); }
 .indented { padding-left: 3em; }
 .center { text-align: center; }
 button, input[type="file"] {
@@ -121,13 +126,9 @@ button img { height: 100%; }
 	bottom: 1ex;
 	right: 1ex;
 	overflow-y: scroll;
-	background: #c6c9df;
-	color: #1d2767;
+	background: var(--text-bg);
+	color: var(--text);
 	padding: 1ex;
-}
-.dark .menu.show {
-	background: #35374f;
-	color: #dde1fd;
 }
 .menu button.close { float: right; }
 .menu.dialog.show {
