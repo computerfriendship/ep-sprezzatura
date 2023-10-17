@@ -331,7 +331,6 @@ let story
 					document.body.classList.remove('alert')
 				} else if(lower === 'restart') {
 					restart()
-					continueStory()
 					return
 				} else if(/^img\s/.test(lower)) setImage(t.substring(3).trim())
 			}
