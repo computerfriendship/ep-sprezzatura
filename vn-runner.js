@@ -11,7 +11,6 @@ let story
     let storyContainer = document.querySelectorAll('.chat')[0]
 	const historyContainer = document.getElementById('old-chat')
 	const chatHistory = historyContainer.querySelectorAll('.chat-history')[0]
-	let playerTag = "Me", speakerTag = ""
 	let choicePoint
 
 	const menuParent = elt => {
@@ -89,6 +88,37 @@ let story
 		confirmRestart.classList.remove('show')
 	}})
 
+	let speechTags = { player_tag: "Me", speaker_tag: "" }
+	const speechTagName = isPlayer => isPlayer ? 'player_tag' : 'speaker_tag'
+
+	function stripSpeechTag(text, isPlayer) {
+		const m = /^([A-Z]\S*):\s+/.exec(text)
+		if(m) {
+			const varName = speechTagName(isPlayer)
+			text = text.substr(m[0].length)
+			speechTags[varName] = m[1]
+			if(story.variablesState[varName] != null) {
+				story.variablesState[varName] = m[1]
+			}
+		}
+		return text
+	}
+
+	function addSpeechTag(text, isPlayer) {
+		let strip = story.variablesState.strip_speech_tags
+		if(strip == null) strip = 'player'
+		if(strip === false || (strip == 'player' && !isPlayer)) {
+			text = speechTags[speechTagName(isPlayer)] + ': ' + text
+		}
+		return text
+	}
+
+	function getInkSpeechTag(isPlayer) {
+		const varName = speechTagName(isPlayer)
+		const inkVar = story.variablesState[varName]
+		if(inkVar != null) speechTags[varName] = inkVar
+	}
+
 	const images = {}
 	function setImage(str) {
 		const err = ()=>{throw new Error("invalid image command: #"+str)}
@@ -155,12 +185,11 @@ let story
 	function choose(event) {
 		event.preventDefault()
 
+		getInkSpeechTag(true)
 		const p = N('p')
 		while(this.firstChild != null) p.appendChild(this.firstChild)
-		if(story.variablesState.player_tag != null) {
-			playerTag = story.variablesState.player_tag
-		}
-		addHistoryLine(p, playerTag)
+		p.innerHTML = stripSpeechTag(p.innerHTML, true)
+		addHistoryLine(p, speechTags.player_tag)
 
 		const existingChoices = storyContainer.querySelectorAll('p.choice')
 		for(const c of existingChoices) c.remove()
@@ -212,7 +241,7 @@ let story
 		return {
 			ink: choicePoint,
 			alert: document.body.classList.contains('alert'),
-			playerTag: playerTag, speakerTag: speakerTag,
+			speechTags: speechTags,
 			img: serializeImages(images)
 		}
 	}
@@ -221,8 +250,7 @@ let story
 			clearContent()
 			if(state.ink.alert) document.body.classList.add('alert')
 			story.state.LoadJson(state.ink)
-			playerTag = state.playerTag
-			speakerTag = state.speakerTag
+			speechTags = state.speechTags
 			for(const i of state.img) setImage(i)
 			continueStory()
 			return true
@@ -280,14 +308,7 @@ let story
     function continueStory() {
 		if(story.canContinue) {
 			let text = story.Continue().trim()
-			const speaker = /^([A-Z]\S*):\s+/.exec(text)
-			if(speaker) {
-				text = text.substr(speaker[0].length)
-				speakerTag = speaker[1]
-				if(story.variablesState.speaker_tag != null) {
-					story.variablesState.speaker_tag = speakerTag
-				}
-			}
+			text = stripSpeechTag(text)
 			for(const t of story.currentTags) {
 				const lower = t.trim().toLowerCase()
 				const split = splitTag(t)
@@ -312,16 +333,10 @@ let story
 			storyContainer.replaceChildren()
 			if(text !== '') {
 				const p = N('p', {class: 'text'})
-				let html = text
-				if(story.variablesState.stripSpeakerTags !== true) {
-					html = speakerTag+': '+text
-				}
-				p.innerHTML = html
+				p.innerHTML = addSpeechTag(text)
 				storyContainer.appendChild(p)
-				if(story.variablesState.speaker_tag != null) {
-					speakerTag = story.variablesState.speaker_tag
-				}
-				addHistoryLine(N('p', {class: 'text'}, text), speakerTag)
+				getInkSpeechTag()
+				addHistoryLine(N('p', {class: 'text'}, text), speechTags.speaker_tag)
 			}
 		}
 		// Render choices, if not already rendered.
@@ -330,18 +345,20 @@ let story
 				// Alert box: single paragraph with buttons.
 				const p = N('p', {class: 'choice'})
 				story.currentChoices.forEach((choice) => {
-					const i = choice.index, t = choice.text
+					const i = choice.index
+					const t = stripSpeechTag(choice.text, true)
 					const b = N('button', {click: choose, 'data-index': i})
-					b.innerHTML = t
+					b.innerHTML = addSpeechTag(t, true)
 					N(p, b)
 				})
 				N(storyContainer, p)
 			} else {
 				// Regular dialogue: links on separate lines.
 				story.currentChoices.forEach((choice) => {
-					const i = choice.index, t = choice.text
+					const i = choice.index
+					const t = stripSpeechTag(choice.text, true)
 					const a = N('a', {href: '#', click: choose, 'data-index': i})
-					a.innerHTML = t
+					a.innerHTML = addSpeechTag(t, true)
 					N(storyContainer, N('p', a, {class: 'choice'}))
 				})
 			}
