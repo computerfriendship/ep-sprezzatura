@@ -107,7 +107,7 @@ let story
 	function addSpeechTag(text, isPlayer) {
 		let strip = story.variablesState.strip_speaker_tags
 		if(strip == null) strip = 'player'
-		if(strip === false || (strip == 'player' && !isPlayer)) {
+		if(!strip || (strip == 'player' && !isPlayer)) {
 			text = speechTags[speechTagName(isPlayer)] + ': ' + text
 		}
 		return text
