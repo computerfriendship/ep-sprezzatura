@@ -428,8 +428,13 @@ let story
 			console.debug("URL hash not a valid knot/stitch.")
 		}
 	}
-	if(!urlTarget) loadGameFromBrowser()
-	choicePoint = story.state.toJson()
+	if(!urlTarget) {
+		loadGameFromBrowser()
+		choicePoint = story.state.toJson()
+	} else {
+		choicePoint = story.state.toJson()
+		continueStory()
+	}
 
 })(storyContent);
 
