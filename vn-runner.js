@@ -64,7 +64,7 @@ let story
 		const file = loadButton.files[0]
 		if(file == null) return
 		file.text().then(json => {
-			loadGame(JSON.parse(json))
+			loadGame(JSON.parse(json), file.name)
 			saveMenu.classList.remove('show')
 		})
 	}})
@@ -249,17 +249,18 @@ let story
 			img: serializeImages(images)
 		}
 	}
-	function loadGame(state) {
+	function loadGame(state, name) {
 		try {
 			clearContent()
 			if(state.ink.alert) document.body.classList.add('alert')
 			story.state.LoadJson(state.ink)
+			choicePoint = story.state.toJson()
 			speechTags = state.speechTags
 			deserializeImages(state.img)
 			continueStory()
 			return true
 		} catch(e) {
-			console.debug("Couldn't load game", e)
+			console.debug("Couldn't load game \""+name+"\"", e)
 		}
 		return false
 	}
@@ -276,9 +277,9 @@ let story
 		name = name ?? 'default'
 		try {
 			let state = window.localStorage.getItem(name)
-			if(state) return loadGame(JSON.parse(state))
+			if(state) return loadGame(JSON.parse(state), name)
 		} catch(e) {
-			console.debug("Couldn't load game \""+name+"\"")
+			console.debug("Couldn't load game \""+name+"\"", e)
 		}
 		return false
 	}
@@ -430,10 +431,7 @@ let story
 			console.debug("URL hash not a valid knot/stitch.")
 		}
 	}
-	if(!urlTarget) {
-		loadGameFromBrowser()
-		choicePoint = story.state.toJson()
-	} else {
+	if(urlTarget || !loadGameFromBrowser()) {
 		choicePoint = story.state.toJson()
 		continueStory()
 	}
