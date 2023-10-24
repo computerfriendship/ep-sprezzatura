@@ -340,7 +340,9 @@ let story
 				p.innerHTML = addSpeechTag(text)
 				storyContainer.appendChild(p)
 				getInkSpeechTag()
-				addHistoryLine(N('p', {class: 'text'}, text), speechTags.speaker_tag)
+				const logLine = N('p', {class: 'text'})
+				logLine.innerHTML = text
+				addHistoryLine(logLine, speechTags.speaker_tag)
 			}
 		}
 		// Render choices, if not already rendered.
