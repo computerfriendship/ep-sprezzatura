@@ -50,7 +50,7 @@ let story
 		const data = URL.createObjectURL(new Blob([JSON.stringify(gameState())]))
 		const link = N('a', {
 			href: data,
-			download: 'fymp.json',
+			download: 'ink-vn-save.json',
 			style: {visibility: 'hidden'}
 		})
 		N(saveMenu, link)
