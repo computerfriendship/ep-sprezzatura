@@ -1,18 +1,18 @@
 VAR love = 0
-VAR strip_speaker_tags = true
+VAR strip_speaker_tags = false
 
 -> Morning
 
 
 === Morning ===
 
-# img bg: background-daytime.png
+Narrator: In the big city... # img bg: background-daytime.png
 
 Gertrude: Look at me! #img lady: lady-happy.png 90 100 50
 
-Gertrude: A young visual novel sprite in the big city. # audio: audio/car.mp3
+# audio: audio/car.mp3
 
-# The tag above plays a sound effect.
+Gertrude: A young visual novel sprite in the big city.
 
 Gertrude: I wonder who I'll meet? #img lady: lady-listening.png
 

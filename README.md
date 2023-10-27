@@ -1,10 +1,42 @@
-# Ink VN-lite template
+## Ink Visual Novel Lite Template
+
+A simple visual novel template for web-based Ink games!
+
+• Create scenes with individual backgrounds.
+• Add characters with multiple sprites and move them around.
+• Add sound effects to scenes.
+• Adjust how character dialogue is formatted with HTML.
+• Click through dialogue one line at a time, either with mouse or keyboard.
+• Flip to dark mode for easier reading.
+• Save and load game progress.
+• View dialogue history.
+
+
+## To Start...
+
+To use this template, you'll need a program called Inky to script in Ink:
+
+https://www.inklestudios.com/ink/
+
+Here's a beginner's tutorial for how to use Ink:
+
+https://www.inklestudios.com/ink/web-tutorial/
+
+
+## Writing Dialogue
 
 Write your choices in square brackets so the VN runner can distinguish the player's lines from the NPCs' lines:
+
 
 ```
 * [Yeah, sure.]
 * [No way!]
+
+or
+
++ [Yeah, sure.]
++ [No way!]
+
 ```
 
 
@@ -53,6 +85,8 @@ Hopefully the CSS isn't too hard to follow. I have at least put all the basic co
 
 Again, note that none of the tags are case-sensitive: you can capitalize them however you want. And you can put spaces between the `#` and the command name if you want. You *will* have to get the capitalization correct for filenames though.
 
-* `#audio my-audio-file.mp3` will play a sound effect. This is extremely simple and limited: you can only play one sound file at a time.
+* `#audio audio/my-audio-file.mp3` will play a sound effect. This is extremely simple and limited: you can only play one sound file at a time.
+
 * `#restart` will restart the game
-* Since _Fix Your Mother's Printer_ was styled as a video call app, we added the option to turn off the “video” and display the choices as buttons in a pop-up box. I don't know what you'd use this for, but I didn't see any reason to tear it out. So turn it on with `#alert` and go back to normal character dialogue with `#dialogue`.
+
+* Since the game this template was made for, Fix Your Mother's Printer, was styled as a video call app, we added the option to turn off the “video” and display the choices as buttons in a pop-up box. I don't know what you'd use this for, but I didn't see any reason to tear it out. So turn it on with `#alert` and go back to normal character dialogue with `#dialogue`.

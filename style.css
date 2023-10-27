@@ -121,7 +121,7 @@ button img { height: 100%; }
 .menu.show {
 	display: block;
 	position: absolute;
-	top: 1.5em;
+	top: 1em;
 	left: 1ex;
 	bottom: 1ex;
 	right: 1ex;
