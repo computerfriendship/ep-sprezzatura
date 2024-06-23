@@ -22,6 +22,10 @@ Here's a beginner's tutorial for how to use Ink:
 
 https://www.inklestudios.com/ink/web-tutorial/
 
+To put your story into the template, use File > Export story.js only in Inky, and replace the `story.js` file in the template.
+
+If you get an error about the Ink versions not matching, it means Inky has updated and I haven't noticed. If this happens, you should be able to do the full File > Export for web (put it in a different directory) and copy its `ink.js` file into the template.
+
 
 ## Writing Dialogue
 
@@ -90,3 +94,4 @@ Again, note that none of the tags are case-sensitive: you can capitalize them ho
 * `#restart` will restart the game
 
 * Since the game this template was made for, Fix Your Mother's Printer, was styled as a video call app, we added the option to turn off the “video” and display the choices as buttons in a pop-up box. I don't know what you'd use this for, but I didn't see any reason to tear it out. So turn it on with `#alert` and go back to normal character dialogue with `#dialogue`.
+

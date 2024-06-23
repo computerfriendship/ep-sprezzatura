@@ -26,8 +26,7 @@ Theodore: Wanna go out on a date with... ME?! #img bro: bro-listening.png
     
     Gertrude: I'd love to go on a date with... YOU!? #img lady: lady-excited.png
     
-    Theodore: It's gonna be the best date ever! #img bro: bro-excited.png
-    
+    Theodore: It's gonna be the best date ever! #img bro: bro-excited.png 10 100 50
     ~love++
     
     #img lady:
