@@ -386,3 +386,48 @@
             It's more than a little shocking.
         
         -> END
+
+== rascal_shows_you_music ==
+    
+    * [listen]
+        -> listen
+    * [refuse]
+        -> paz_convo
+    
+    = listen
+        -> END
+        
+    -> END
+    
+== paz_convo ==
+
+    * [listen to Paz's song]
+        -> talk_like_paz
+    * [don't listen to Paz's song]    
+        -> paz_done_with_you
+    
+    = talk_like_paz
+        -> endo_eerie_choice
+    = paz_done_with_you
+        -> endo_eerie_choice
+    -> END
+    
+== endo_eerie_choice ==
+    
+    * [Talk to Endo]
+        -> endo_convo
+    * [Talk to Eerie]
+        -> eerie_convo
+        
+    -> END
+    
+== endo_convo ==
+
+    * [Take the potion] -> potion_ending
+    * [Refuse the potion] -> eerie_convo
+    
+    = potion_ending
+        -> END
+        
+== eerie_convo ==
+    -> END
