@@ -187,14 +187,14 @@
         
         He is reinforcing the stitches in an old patch on his jacket with the used floss.
         
-        Eerie: What's the sitch?
+        Eerie: What's up?
         
         Me: Nothing much.
         
         // if you know where your bags are: "i've been preparing so it's not a big rush today"
         // if you didn't: "uh, just been taking things as they go"
         
-        Eerie: So, new guy! Didn't think we'd end up in white-picket-fence-world to pick you up.
+        Eerie: So, new kid! Didn't think we'd end up in white-picket-fence-world to pick you up.
         
         Who we rescuing you from?
         
@@ -296,9 +296,13 @@
         
         I haven't forgotten that Rascal Domino is also in this van with us.
         
+        He's curled up, purring, at the center of a circle of lit candles that drip wax onto his blankets.
+        
+        I'm not gonna try talking to him yet.
+        
         I might just be a little star-struck, even more than I am with the rest.
         
-        I also did not want to wake him, because he is a cat.
+        I also do not want to wake him, because he is a cat.
         
         Cats gotta sleep, after all.
         
@@ -310,6 +314,63 @@
         
         I get the sense that he sleeps in the daytime both out of respect for rock-and-roll's debaucherous roots, and because he needs his blanky time under the covers.
         
-        And I am not going to take it from him.
+        And I am not going to take that from him.
     
+        Eerie says that now might be our last chance to get some rest for a while, so I curl up as best I can in the passenger seat for a few hours.
+    
+            -> van_practice
+
+== van_practice ==
+        
+        YN: I'm shaken by someone and I gradually come to my senses.
+        
+        It's Paz, grinning down at me.
+        
+        Paz: We gotta practice!
+        
+        Wake up!
+        
+        YN: They shake me again.
+        
+        Me: Practice? In here? How?
+        
+        YN: There's not much room in the van. Barely space for Paz's drum kit, which they're setting up in the far corner.
+        
+        Me: What are we gonna do for a PA?
+        
+        Eerie: Cars are full of speakers!
+        
+        YN: I look to see Eerie wiring DJ Endo's laptop directly into the van's stereo system with just some alligator clips.
+        
+        The speakers crackle and hum, and suddenly a wild collage of samples emerges. Gentle sounds, like the quickest snippets of dreams I can't remember. They wash peacefully over the breakfast bar wrappers and crushed energy drink cans.
+        
+        Eerie reaches back behind the drivers' seat and picks up a bass.
+        
+        He shouts to me over the noise.
+        
+        Eerie: Bass is in left channel, laptop is in right! I'm gonna patch you through the laptop!
+        
+        I can feel the frame of the van rattle as he soundchecks bass. Paz hands me a microphone and rushes back to the kit.
+        
+        * [Sound-check your voice] -> tap_the_mic
+        * [Look for Rascal] -> look_for_rascal
+        
+        = look_for_rascal
+        
+            YN: I wonder where Rascal is.
+            
+            Me: Where's Rascal? Is he gonna be here?
+            
+            YN: Just then, a paw comes out from behind  me and taps the microphone. I look over my shoulder.
+            
+            It's Rascal Domino! Hanging from the car seat headrest.
+            
+            RD: Shall we?
+            
+            YN: His drawl is more Nashville, Tennessee in person.
+            
+                -> END
+            
+        = tap_the_mic
+        
         -> END
