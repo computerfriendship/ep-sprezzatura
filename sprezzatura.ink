@@ -389,17 +389,48 @@
 
 == rascal_shows_you_music ==
     
+    YN: Rascal asks if he can curl up with you.
+    
+    * [cuddle]
+        -> cuddles
+    * [no cuddles]
+        -> no_cuddles
+        
+    = cuddles
+        Rascal curls up on your lap and a few cassettes spill out of his little blue jacket.
+        -> music_choice
+    = no_cuddles
+        Rascal apologizes for the indignity. He offers you a cassette in return.
+        -> music_choice
+    
+    = music_choice
+    
+    Rascal wants you to listen to the cassette. Do you?
+    
     * [listen]
         -> listen
     * [refuse]
         -> paz_convo
     
     = listen
+    You are visibly changed by the music. Eerie drives a stake through your heart.
         -> END
         
     -> END
     
 == paz_convo ==
+
+    Rascal returns to the back of the van for another nap.
+    
+    Paz is concerned because you were so nervous about listening to music.
+    
+    They talk to you about their reasons for being on the road, and how they're nervous too.
+    
+    But they assure you it will be okay.
+    
+    You have each other, after all!
+    
+    Then they want you to know if you would listen to the new song they wrote.
 
     * [listen to Paz's song]
         -> talk_like_paz
@@ -407,8 +438,31 @@
         -> paz_done_with_you
     
     = talk_like_paz
+    
+        You compliment the song, but you are more enthusiastic than usual.
+        
+        In fact, your are even smiling with your teeth!
+        
+        Like Paz does...
+        
+        And when they ask about it, you use all of Paz's vocal ticks in your answer.
+        
+        One by one.
+        
+        Everyone calls you out for being super star struck, and Paz says they need a minute in the back.
+        
         -> endo_eerie_choice
+        
     = paz_done_with_you
+    
+        Your nerves are too much.
+        
+        It's stressing Paz out.
+        
+        They just want to be friends!
+        
+        They say they need a minute in the back to think, and they walk away.
+    
         -> endo_eerie_choice
     -> END
     
