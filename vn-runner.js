@@ -107,10 +107,13 @@ let story
 	function addSpeechTag(text, isPlayer) {
 		let strip = story.variablesState.strip_speaker_tags
 		if(strip == null) strip = 'player'
-		if(!strip || (strip == 'player' && !isPlayer)) {
-			text = speechTags[speechTagName(isPlayer)] + ': ' + text
+		const tag = speechTags[speechTagName(isPlayer)];
+		const tagIsNarrator = tag.toUpperCase() == "YN";
+		if(strip && (strip != 'player' || isPlayer) || tagIsNarrator) {
+			return text;
+		} else {
+			return tag + ': ' + text
 		}
-		return text
 	}
 
 	function getInkSpeechTag(isPlayer) {
