@@ -361,7 +361,7 @@
             
             Me: Where's Rascal? Is he gonna be here?
             
-            YN: Just then, a paw comes out from behind  me and taps the microphone. I look over my shoulder.
+            YN: Just then, a paw comes out from behind me and taps the microphone. I look over my shoulder.
             
             It's Rascal Domino! Hanging from the car seat headrest.
             
@@ -369,7 +369,7 @@
             
             YN: His drawl is more Nashville, Tennessee in person.
             
-                -> END
+                -> song
             
         = tap_the_mic
         
@@ -384,12 +384,22 @@
             But I come through soft and clear through the speakers.
             
             It's more than a little shocking.
+            
+                -> song
+        
+        = song
+        
+            You play a song together.
+            
+            You can tell your voice is different.
+        
+            -> rascal_shows_you_music
         
         -> END
 
 == rascal_shows_you_music ==
     
-    YN: Rascal asks if he can curl up with you.
+    YN: Rascal asks if he can curl up with you in the passenger's seat.
     
     * [cuddle]
         -> cuddles
