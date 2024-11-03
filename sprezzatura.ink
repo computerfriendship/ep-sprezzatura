@@ -373,4 +373,16 @@
             
         = tap_the_mic
         
+            YN: First I tap the mic.
+            
+            I hear a pop. Through Endo's setup, even the pop feels musical.
+            
+            Then I try to sing.
+            
+            I haven't warmed up and I just woke up from a nap, and normally in a situation like that, I'd feel the congestion in my throat making my voice raspy.
+            
+            But I come through soft and clear through the speakers.
+            
+            It's more than a little shocking.
+        
         -> END
