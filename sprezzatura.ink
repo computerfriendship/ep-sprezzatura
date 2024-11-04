@@ -520,7 +520,7 @@
     
     And not when it causes you to forget who you really are.
     
-    Your core- you might express it through performing any number of characters in your life.
+    The core you- you might express it through performing any number of characters in your life.
     
     And maybe you can't take in your full complexity all in at once.
     
@@ -540,7 +540,55 @@
     
     I know that sounds harsh but trying to run from yourself... it just doesn't work.
     
-    We sit in silence for a while. He looks down at his hands and I stare at the wall.
+    YN: We sit in silence for a while. He looks down at his hands and I stare at the wall.
+    
+    Me: You know, are you absolutely sure there is such a thing as a core you?
+
+    YN: At this, he shifts over to me. He gently takes my hand into his.
+    
+    He's very careful with his bedside manner.
+    
+    But his smile- it's excited.
+    
+    Like he's caught me, and he's looking forward to the part he knows is coming next.
+
+    Uh oh.
+    
+    Is he a real doctor?
+    
+    Before I even have time to ask, he's cut the silence with the zipper of his medical bag.
+
+    DJ: You know, the only way I could really ever figure that out was to take that leap of faith.
+    
+    The one we all have to take.
+    
+    Well, all the trans people anyway.
+    
+    Make the body match the mind!
+    
+    Except normally, what you have to do first is realize what you are- then go about all that hard work.
+    
+    I hated how that phase made me feel.
+    
+    All the excitement, knowing it was possible to change my life! But all the second guessing.
+    
+    Am I really gonna like this? Am I really even trans? Maybe I got carried away- maybe I'm just trying to be like someone else!
+    
+    YN: He's pulling a very long syringe out of the bag. It's pre-filled.
+    
+    DJ: This- this, is the new HRT. I imagine it will replace the contemporary methods.
+    
+    Say goodbye to "would you press the button if it would make you a boy, no strings attached?"
+    
+    You don't have to know. Just give it a try! If you weren't really trans, it won't do anything!
+    
+    If you were trans all along, it gets to work.
+    
+    It *knows* what you want.
+    
+    He takes my wrist.
+    
+    Don't worry. There *is* a real you. You'll find it.
 
     * [Take the potion] -> potion_ending
     * [Refuse the potion] -> eerie_convo
@@ -573,6 +621,23 @@
     * [Tell Eerie about Rascal] -> rascal_ending
     
     = new_jersey_ending
+    
+        YN: Ze motions for me to lean in. He's gonna whisper something in my ear.
+        
+        Eerie: Not gonna lie, I was listening.
+        
+        I don't want Endo giving you any bad advice. He's got his own demons.
+        
+        That means he can give great advice sometimes!
+        
+        But he's also pretty good at taking the point way too far. He thinks you've gotta fight fire with fire every time, if that makes any sense.
+        
+        But yeah, do you just feel like you're always turning into someone else?
+        
+        YN: Hir smile is warm. Caring even.
+        
+        
+        
         -> END
         
     = paz_ending
