@@ -40,10 +40,9 @@
     But an opportunity like this comes by once in a lifetime.
     
         -> meet_the_band
-
 == meet_the_band ==
 
-    YN: Paz is the first to hop out of the van, and they practically run at me.
+    YN: Paz (they/them, squirrel) is the first to hop out of the van, and they practically run at me.
     
     They stop short of running me over...
     
@@ -87,11 +86,11 @@
         
         YN: I was so lost in thought I didn't notice a taller, sallower looking man sidle up to me.
         
-        Oh my god. That's DJ Endocrinologist.
+        Oh my god. That's DJ Endocrinologist (he/him).
         
         He's a DJ and an Endocrinologist and his best friend is a 2008 MacBook Pro.
         
-        Rumor has it that he owns the only surviving copy of iLife '09: Alan L. Hart Edition. And it taught him how to synthesize testosterone in a lab and perform a perfect hysterectomy.
+        Rumor has it that he owns the only surviving copy of iWork '09: Alan L. Hart Edition. And it taught him how to synthesize testosterone in a lab and perform a perfect hysterectomy.
         
         Oh. I'm staring through him.
         
@@ -171,11 +170,11 @@
         
         YN: I don't want to stand awkwardly on the front lawn so I walk towards the van.
         
-        In the drivers seat is the legendary Eerie Pierce.
+        In the drivers seat is the legendary Eerie Pierce (any pronouns, cat/dog).
         
-        His hair is floofy. His nose is always wet. Like a dog.
+        Hir hair is floofy. Hir nose is always wet. Like a dog.
         
-        He's flossing his perfect teeth.
+        He's flossing hir perfect teeth.
         
         He looks over but can't make a normal face because he is flossing.
         
@@ -185,7 +184,7 @@
         
         I look closer.
         
-        He is reinforcing the stitches in an old patch on his jacket with the used floss.
+        He is reinforcing the stitches in an old patch on hir jacket with the used floss.
         
         Eerie: What's up?
         
@@ -262,9 +261,9 @@
         
         I'm Eerie, it's good to see you. We're gonna have fun.
         
-        YN: He reaches out his hand for a surprisingly formal handshake.
+        YN: He reaches out hir hand for a surprisingly formal handshake.
         
-        My fingers feel fishy in his grip, but I don't mind how firm it is.
+        My fingers feel fishy in hir grip, but I don't mind how firm it is.
         
             -> paz3
                 
@@ -319,7 +318,6 @@
         Eerie says that now might be our last chance to get some rest for a while, so I curl up as best I can in the passenger seat for a few hours.
     
             -> van_practice
-
 == van_practice ==
         
         YN: I'm shaken by someone and I gradually come to my senses.
@@ -332,7 +330,7 @@
         
         YN: They shake me again.
         
-        Me: Practice? In here? How?
+        Me: "Practice? In here? How?" I ask.
         
         YN: There's not much room in the van. Barely space for Paz's drum kit, which they're setting up in the far corner.
         
@@ -346,7 +344,7 @@
         
         Eerie reaches back behind the drivers' seat and picks up a bass.
         
-        He shouts to me over the noise.
+        Ze shouts to me over the noise.
         
         Eerie: Bass is in left channel, laptop is in right! I'm gonna patch you through the laptop!
         
@@ -396,7 +394,6 @@
             -> rascal_shows_you_music
         
         -> END
-
 == rascal_shows_you_music ==
     
     YN: Rascal asks if he can curl up with you in the passenger's seat.
@@ -478,6 +475,10 @@
     
 == endo_eerie_choice ==
     
+    DJ Endocrinologist and Eerie approach you together.
+    
+    They express concern over your behaviour.    
+    
     * [Talk to Endo]
         -> endo_convo
     * [Talk to Eerie]
@@ -487,6 +488,60 @@
     
 == endo_convo ==
 
+    DJ Endo takes you aside.
+    
+    DJ: Okay. First of all, that was not cool.
+    
+    Stealing their typing quirk and everything.
+    
+    I don't know if it's a crush or something?
+    
+    YN: Now I'm really red in the face.
+    
+    DJ: But, my gut says it's weirder than that.
+    
+    He tells you about how, when he was young, he wanted to be like the male characters in his favorite art.
+    
+    Not only that- he felt he was them, deep inside.
+    
+    Like when he pretended to be one of them, he was more real than he was when he 'pretended' to be himself.
+    
+    Being a character clearly defines your traits. Characters are so powerful because they are finite. A character is only made up of the descriptions that are created about them by an author.
+    
+    A person is more messy. What person can be described fully in a piece of art?
+    
+    Nobody- but definitely not one with a big imagination, like you.
+    
+    It's hard to live in the world as a real person. It's easier to compress yourself, you know? Make yourself a character.
+    
+    And to some extent, that's fine!
+    
+    But not when the character you're copying is a real person.
+    
+    And not when it causes you to forget who you really are.
+    
+    Your core- you might express it through performing any number of characters in your life.
+    
+    And maybe you can't take in your full complexity all in at once.
+    
+    But it's there.
+    
+    And through relating to outside things, he was able to find out what he was.
+    
+    Me: I mean, what you're saying sounds right. But I never considered any of this before.
+    
+    I never realized how much of what you're saying has happened to me, too.
+    
+    I don't even know...
+    
+    I've been getting into things for so many years, how can I remember what I was like? Before anything changed me?
+    
+    DJ: You've gotta get back to that. It's the only way you're gonna be happy in the long run.
+    
+    I know that sounds harsh but trying to run from yourself... it just doesn't work.
+    
+    We sit in silence for a while. He looks down at his hands and I stare at the wall.
+
     * [Take the potion] -> potion_ending
     * [Refuse the potion] -> eerie_convo
     
@@ -494,4 +549,66 @@
         -> END
         
 == eerie_convo ==
+
+    Eerie waves me up to the passenger seat.
+    
+    He's at the wheel just driving through the night, staring down the highway.
+    
+    Eerie: So, uhhh, what was that about?
+    
+    Me: Back there?
+    
+    Eerie: You've been having strange encounters all day. Like, not the usual things we get when we meet people.
+    
+    Yeah, they can be a little weird about us, assume things that aren't true, act like they know us, etc. That's showbiz, it's fine.
+    
+    But you're our friend! And you don't seem, uh, comfortable?
+    
+    Me: Not yet, I guess. It's been... weird.
+    
+    Eerie: Do you wanna talk about it?
+    
+    * [Tell Eerie about DJ Endo] -> new_jersey_ending
+    * [Tell Eerie about Paz] -> paz_ending
+    * [Tell Eerie about Rascal] -> rascal_ending
+    
+    = new_jersey_ending
+        -> END
+        
+    = paz_ending
+    
+    Eerie: Paz is upset, yeah?
+    
+    YN: I look down at my feet.
+    
+    Eerie: It looks like you understand why it was weird for you to do that.
+    
+    Stealing their typing quirk! Damn right they're upset.
+    
+    But hey, imitation is the sincerest form of flattery, yeah?
+    
+    Maybe a little too sincere for a cool critter like Paz, but I bet if you talked to them about it they'd understand.
+    
+    There's gonna be other opportunities to get excited about stuff together- you'll do it better next time.
+    
+    Get some sleep, yeah?
+    
+    You can sleep up here. I'll be up all night, I won't let anyone talk shit behind your back. You're fine.
+    
+    Believe me. We've had worse bandmates.
+    
+    Had to drive a stake through this one girl's heart one time.
+    
+    And she was the only one who could play bass!
+    
+    After that I took up bass. Not letting that happen again. Right before a gig and everything!
+    
+    YN: He groans in mock disbelief.
+    
+    Eerie: Anyway, sleep tight!
+    
+        -> END
+    = rascal_ending
+        -> END
+    
     -> END
