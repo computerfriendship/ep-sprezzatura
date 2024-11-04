@@ -1,5 +1,5 @@
 :root {
-	--sz: 3vh;
+	--sz: 22px;
 	--screen-bg: linear-gradient(to bottom right, #4b9edb, #3bd2da);
 	--app-bg: #e6e7f1;
 	--text: #1d2767;
@@ -15,9 +15,15 @@
 	--chat-box-border: thin solid white;
 	--link: #9da5d4;
 }
+.camera {
+	display: none;
+}
 .camera > div {
 	background-image: url("img/background-daytime.png");
 	aspect-ratio: 2/1;
+}
+#theme {
+	display: none;
 }
 
 
@@ -28,10 +34,15 @@ html {
 }
 body {
 	margin: 0;
-	padding: 5vh;
     font-family: sans-serif;
 	background: var(--screen-bg);
 	font-size: var(--sz);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 div { margin: 0; padding: 0 }
@@ -39,13 +50,10 @@ div { margin: 0; padding: 0 }
 .hidden { visibility: hidden; }
 
 .app {
-	position: relative;
 	box-sizing: border-box;
 	background: var(--app-bg);
-	border-radius: 1em;
-	max-width: 90vh;
-	min-height: 90vh;
-	margin: 0 auto;
+	width: 721px;
+	height: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -72,7 +80,6 @@ div { margin: 0; padding: 0 }
 .chat-box {
 	flex: 1;
 	min-height: 25%;
-	background: var(--text-bg);
 	color: var(--text);
 	margin: 1ex 1em;
 	border-radius: 2em;
