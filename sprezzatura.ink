@@ -636,7 +636,19 @@
         
         YN: Hir smile is warm. Caring even.
         
+        Me: Oh man...
         
+        Can I call you man?
+        
+        Eerie: Yeah.
+        
+        Me: I can't say much else about it. Up until today I've never realized how much things affect me.
+        
+        And now, like, I don't want people to notice.
+        
+        I don't want them to, I don't know, start thinking everything I do comes from something I saw? Or heard? And none of it's *me*?
+        
+        Eerie: Maybe that- that way of feeling things, *is* the real you?
         
         -> END
         
