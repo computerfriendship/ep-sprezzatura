@@ -6,11 +6,9 @@
     
     Maybe I think I'll mess everything up if I get too close.
     
-    But when I'm really passionate about something...
+    But when I'm really passionate about something, I'll admit: it feels good. At some point I stop even trying to resist.
     
-    I'll admit: I'm a moth to a flame. It feels good- at some point I don't even try to resist.
-    
-    I don't get obsessed too often anymore. And when I do, I never know what it's going to be. But I get sucked in.
+    I don't get obsessed too often anymore. And when I do, I never know what it's going to be. But I get sucked in and then a few months of my life disappear.
     
     Sounds like typical Autism + ADHD to most people, but I never got diagnosed with either. and it's probably too late for that now.
     
@@ -18,13 +16,13 @@
     
     I don't think about it that much.
     
-    The only reason I'm ruminating about it now is, well,
+    The only reason I'm ruminating about it now is, well...
     
-    this time one of my special interests paid off. Big time.
+    This time one of my special interests paid off. Big time.
     
     // Sprezzatura drop?
     
-    In front of me is the van where I will eat, sleep, rehearse, and everything in between for the next three weeks.
+    Parked on the curb, in front of my parents' house, is the van where I will eat, sleep, rehearse, and everything in between for the next three weeks.
     
     I'm not sure if the van life is a good fit for me, but it's just three weeks. Plus, I'll have good company!
     
@@ -52,13 +50,13 @@
     
     = paz
     
-        Paz: I can't believe I'm really seeing you! In real life!
+        Paz: I can't believe I'm really seeing youu! In real life!
         
-        Huh. You kinda just look, uh, exactly how I expected you to.
+        You kinda just look, uh, exactly how I expected you to! Huh!
         
-        Wooooah, that was awkward! Sorry, I'm like, no filter sometimes.
+        Wooooah, that wuz awkward! Sorry, I'm like, no filter sometimes.
         
-        Where's your stuff? I'll start moving it out.
+        Where's ur stuff? I'll start moving it out.
         
         * [It's all at the bottom of the stairs]
         
@@ -70,13 +68,13 @@
             
         * [I don't know]
         
-            Paz: No worries! I'll find it!
+            Paz: No probz! I'll find it!
         
             -> paz2
     
     = paz2
     
-    YN: They start past me towards the house, looking back to say "I meant it in a good way though!"
+    YN: They start past me towards the house, looking back to say "I meant it in a good way tho!"
     
     Paz is high energy. I do not usually know what to say back to them, if I ever have time to get a word in.
     
@@ -84,7 +82,7 @@
     
     = endo
         
-        YN: I was so lost in thought I didn't notice a taller, sallower looking man sidle up to me.
+        YN: I'm so lost in star-struck thought that I don't notice a taller, sallower looking man sidle up to me.
         
         Oh my god. That's DJ Endocrinologist (he/him).
         
@@ -387,14 +385,34 @@
         
         = song
         
-            You play a song together.
+            YN: Rascal kicks up the band with an unexpected but admittedly genius guitar chord.
             
-            You can tell your voice is different.
+            Now things are getting interesting.
+            
+            I know, for a fact, that my voice does not usually behave this way.
+            
+            I've trained for so long to understand how my voice works, to identify all its weak points and learn how to conceal them.
+            
+            Now that I'm with the band, I can just melt right in to their sound.
+            
+            I was *made* for it.
+            
+            It's as if years of voice lessons are suddenly irrelevant. It's a little bit frustrating.
+            
+            I was so excited to show them how hard I've worked to get this good, and now I'm just a natural? Not fair.
+            
+            Rascal looks at me. *Through* me.
+        
+            Rascal: You're thinking. Don't think.
+        
+            Maybe I should have fun with this...
         
             -> rascal_shows_you_music
         
         -> END
 == rascal_shows_you_music ==
+    
+    YN: Rehearsal was fun after that. We know what we're gonna do tonight for the show, and I feel confidence in my abilities like never before.
     
     YN: Rascal asks if he can curl up with you in the passenger's seat.
     
@@ -607,8 +625,8 @@
     Me: Back there?
     
     Eerie: You've been having strange encounters all day. Like, not the usual things we get when we meet people.
-    
     Yeah, they can be a little weird about us, assume things that aren't true, act like they know us, etc. That's showbiz, it's fine.
+    
     
     But you're our friend! And you don't seem, uh, comfortable?
     
@@ -630,9 +648,15 @@
         
         That means he can give great advice sometimes!
         
-        But he's also pretty good at taking the point way too far. He thinks you've gotta fight fire with fire every time, if that makes any sense.
+        But he's also pretty good at taking the point waaay too far.
         
-        But yeah, do you just feel like you're always turning into someone else?
+        He thinks you've gotta fight fire with fire every time, if that makes any sense.
+        
+        But yeah, uh...
+        
+        YN: Eerie wrings hir hands. Ze looks afraid to finish the question.
+        
+        Eerie: Do you just feel like you're always turning into someone else?
         
         YN: Hir smile is warm. Caring even.
         
@@ -650,42 +674,109 @@
         
         Eerie: Maybe that- that way of feeling things, *is* the real you?
         
-        -> END
+        Hey. What if I give you a gift. Hold out your hand?
         
+        * [Trust Eerie] -> nj_kandi
+        * [Don't trust Eerie] ->no_nj_kandi
+        
+        = nj_kandi
+        
+            YN: My arm quivers, but I reach out to Eerie.
+            
+            He seems safe, and it's not like the night can get any worse.
+            
+            He clasps my hand and slides a kandi bracelet across to my wrist.
+            
+            He lets go, and the elastic band fits on with a snap.
+            
+            The beads are orange, red and blue, and the letter beads read "2201" on one side, and "-16" on the other.
+            
+            Me: 2201? Negative 16?
+            
+            Eerie: It's the highest and lowest elevations in the state of New Jersey, in feet!
+            
+            Me: Wha- New Jersey? Why?
+            
+            Eerie: All my kandi is New Jersey inspired! Especially by geography stuff.
+            
+            YN: Eerie can no longer hide his dopey grin.
+            
+            Eerie: I'm not expecting you to get super into geography with me just 'cuz I gave you some New Jersey kandi. But hey- if it makes you feel any better, I'm weird about something too.
+            
+            YN: Now I can't help but laugh. He's funny, but I'm also so relieved.
+            
+            Me: I'm not gonna suddenly develop a thick Joisey accent just from a bracelet!
+            
+            Eeire: Hey, we don't tawk like that!
+            
+            YN: Eerie laughs too, and even slaps hir knee.
+            
+            Eerie: Besides, that's my point!
+            
+            Maybe when you change it's 'cuz you found something you didn't know you wanted!
+            
+            It's not *everything* that changes you, just what you think is cool, yeah?
+            
+            Me: Huh. Yeah, maybe!
+            
+            Eerie: Sorry New Jersey geography isn't cooool enough for ya.
+            
+            Me: Hey!
+            
+            Eerie: I'm just teasing ya.
+            
+            Hey, let me know if you notice anything different in the next couple days, yeah? Geography can realy sneak up on you.
+            
+            We'll have plenty to talk about!
+            
+            -> sleep_extra
+            
+        = no_nj_kandi
+            -> END
+        
+            -> END
+            
     = paz_ending
     
-    Eerie: Paz is upset, yeah?
-    
-    YN: I look down at my feet.
-    
-    Eerie: It looks like you understand why it was weird for you to do that.
-    
-    Stealing their typing quirk! Damn right they're upset.
-    
-    But hey, imitation is the sincerest form of flattery, yeah?
-    
-    Maybe a little too sincere for a cool critter like Paz, but I bet if you talked to them about it they'd understand.
-    
-    There's gonna be other opportunities to get excited about stuff together- you'll do it better next time.
-    
-    Get some sleep, yeah?
-    
-    You can sleep up here. I'll be up all night, I won't let anyone talk shit behind your back. You're fine.
-    
-    Believe me. We've had worse bandmates.
-    
-    Had to drive a stake through this one girl's heart one time.
-    
-    And she was the only one who could play bass!
-    
-    After that I took up bass. Not letting that happen again. Right before a gig and everything!
-    
-    YN: He groans in mock disbelief.
-    
-    Eerie: Anyway, sleep tight!
-    
-        -> END
+        Eerie: Paz is upset, yeah?
+        
+        YN: I look down at my feet.
+        
+        Eerie: It looks like you understand why it was weird for you to do that.
+        
+        Stealing their typing quirk! Damn right they're upset.
+        
+        But hey, imitation is the sincerest form of flattery, yeah?
+        
+        Maybe a little too sincere for a cool critter like Paz, but I bet if you talked to them about it they'd understand.
+        
+        There's gonna be other opportunities to get excited about stuff together- you'll do it better next time.
+        
+            -> sleep_extra
+        
     = rascal_ending
         -> END
+    
+    = sleep_extra
+    
+        Eerie smiles and returns to the wheel.
+        
+        Get some sleep, yeah?
+        
+        You can sleep up here. I'll be up all night, I won't let anyone talk shit behind your back. You're fine.
+        
+        Believe me. We've had worse bandmates.
+        
+        Had to drive a stake through this one girl's heart one time.
+        
+        And she was the only one who could play bass!
+        
+        After that I took up bass. Not letting that happen again. Right before a gig and everything!
+        
+        YN: He groans in mock disbelief.
+        
+        Eerie: Anyway, sleep tight!
+            
+            -> END
     
     -> END
