@@ -178,7 +178,7 @@
         
         Still, I can tell it's a smile in spirit.
         
-        He tries to wave too but his other hand is busy.
+        He tries to wave too but hir other hand is busy.
         
         I look closer.
         
@@ -191,7 +191,7 @@
         // if you know where your bags are: "i've been preparing so it's not a big rush today"
         // if you didn't: "uh, just been taking things as they go"
         
-        Eerie: So, new kid! Didn't think we'd end up in white-picket-fence-world to pick you up.
+        Eerie: Ayyyy, new kid! Didn't think we'd end up in white-picket-fence-world to pick you up.
         
         Who we rescuing you from?
         
