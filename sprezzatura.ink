@@ -2,7 +2,7 @@
 
 == intro ==
     
-    YN: My whole life, I've struggled with the feeling that if I love someting, the best thing for me to do is keep my distance from it.
+    YN: My whole life, I've struggled with the feeling that if I love something, the best thing for me to do is keep my distance from it.
     
     Maybe I think I'll mess everything up if I get too close.
     
@@ -10,7 +10,7 @@
     
     I don't get obsessed too often anymore. And when I do, I never know what it's going to be. But I get sucked in and then a few months of my life disappear.
     
-    Sounds like typical Autism + ADHD to most people, but I never got diagnosed with either. and it's probably too late for that now.
+    Sounds like typical Autism + ADHD to most people, but I never got diagnosed with either. It's probably too late for that now.
     
     Whatever. I indulge in a little hyperfixation from time to time.
     
@@ -29,7 +29,7 @@
     I'm going on tour. With Ear Piercings.
     
     // Ear. Motherfucking. Piercings.
-    Ear. Piercings.
+    Ear. Piercings. Rascal Domino's traveling sideshow of wonder and whimsy.
     
     It's going to feel like a vacation.
     
