@@ -412,9 +412,49 @@
         -> END
 == rascal_shows_you_music ==
     
-    YN: Rehearsal was fun after that. We know what we're gonna do tonight for the show, and I feel confidence in my abilities like never before.
+    YN: Rehearsal was fun after that. We know what we're gonna do tonight for the show, and I felt confidence in my abilities like never before.
     
-    YN: Rascal asks if he can curl up with you in the passenger's seat.
+    I stare down the road ahead of me in the passenger's seat.
+    
+    The seat and the dashboard are covered in little crumbs, everything's dusty.
+    
+    I pick at the surfaces occasionally but it makes no difference.
+    
+    Rascal slinks between Eerie's seat and mine, and springs up onto the cupholders.
+    
+    He's in his usual ragged navy blue jacket.
+    
+    "Mrrrrrow".
+    
+    It's a low and gravely purr.
+    
+    Rascal: Evening, madam.
+    
+    Can I call you madam?
+    
+    * [uh, sure]
+        YN: He stretches out his front paws as if about to introduce a circus act.
+        
+        Rascal: Ahh, lovely! Tranquil evening we're having, madam?
+        
+        Me: uh, yeah!
+        -> rascal_ask
+    * [no thanks]
+        Rascal: Very well. That's besides the point anyway.
+        -> rascal_ask
+    
+    = rascal_ask
+    
+    // make him say madam ONLY if you are a madam
+    Rascal: I wanted to know, madam, if you're up for some music listening!
+    
+    And also some cuddling. I need snuggles.
+    
+    YN: That jacket looks like it could've come straight from the Civil War. I have no way of confirming or denying that.
+    
+    Eerie looks at me. "He's very soft, you know."
+    
+    // Make this part skippable entirely?
     
     * [cuddle]
         -> cuddles
@@ -422,7 +462,23 @@
         -> no_cuddles
         
     = cuddles
-        Rascal curls up on your lap and a few cassettes spill out of his little blue jacket.
+        Rascal: Ahh, magnificent!
+        
+        YN: Rascal hops from the cupholders to the dashboard, and down onto my lap.
+        
+        A few empty styrofoam cups are displaced in the leap and they clatter onto the floor.
+        
+        Eerie's right, his fur is very soft.
+        
+        But the jacket makes it not entirely pleasant when he shifts about on my lap.
+        
+        It's bumpy, even a bit spiky.
+        
+        It's not a studded crust punk jacket like Eerie's, so what's up with that?
+        
+        Finally, Rascal rolls over onto his back. Five or six cassette tapes spill from his pockets!
+        
+        Oh, that's what was digging into my thigh.
         -> music_choice
     = no_cuddles
         Rascal apologizes for the indignity. He offers you a cassette in return.
