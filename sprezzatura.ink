@@ -416,7 +416,7 @@
     
     I stare down the road ahead of me in the passenger's seat.
     
-    The seat and the dashboard are covered in little crumbs, everything's dusty.
+    The seat and the dashboard are covered in little crumbs, dust, and little hairs.
     
     I pick at the surfaces occasionally but it makes no difference.
     
@@ -479,22 +479,45 @@
         Finally, Rascal rolls over onto his back. Five or six cassette tapes spill from his pockets!
         
         Oh, that's what was digging into my thigh.
-        -> music_choice
+        
+        // ONLY say madam if you are a madam
+        Rascal: Ahh yes, those! Apologies for the indignity, madam.
+        
+        YN:  He looks up with his wizened old-cat eyes and I forgive him.
+        
+        Rascal: My selections for the night.
+        
+        YN: He spreads the cassettes out over his fuzzy little cat tummy.
+        
+        Rascal: What shall it be?
+        
+        // CGs for each cassette?
+        
+        YN: Option one. *Intensa* by The Transworld Depravity.
+        
+        The album that started it all. The Intensa genre is, in fact, named after this release.
+        
+        The Transworld Depravity recorded this album as their debut in 1977, but it's not really that simple.
+        
+        The band comes from Varnishing Point: a secretive artists' colony that no one may enter, and no one may leave.
+        
+        Residents of the colony, called "pointers," are tasked with creating art from future time periods. They do so under extreme conditions, often under threat of torture.
+        
+        The colony believes it must create ten thousand years of art history in only a hundred years. That's gotta be rough.
+        
+        // We need a varnishing point relative time calculator. What does 1977 map to during the flattening?
+        *Intensa* was meant to be an album from the year XXXX(?). People from this time were never meant to hear it.
+        
+        We're never meant to hear anything made in Varnishing Point, for that matter.
+        
+        How does Rascal have it?
+        
+        It's certainly a tempting choice.
+        -> END
+
     = no_cuddles
-        Rascal apologizes for the indignity. He offers you a cassette in return.
-        -> music_choice
-    
-    = music_choice
-    
-    Rascal wants you to listen to the cassette. Do you?
-    
-    * [listen]
-        -> listen
-    * [refuse]
-        -> paz_convo
-    
-    = listen
-    You are visibly changed by the music. Eerie drives a stake through your heart.
+        Rascal: Quiet time instead? Very well, very well. I'm going in for a nap.
+        
         -> END
         
     -> END
