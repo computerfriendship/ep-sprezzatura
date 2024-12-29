@@ -154,11 +154,11 @@
         
         I know you might not need that from me, 'cause I'm mainly here to sing and all, but it's true!
         
-        I've spent all the free time I had the last few months just playing all your songs and I usually accompany myself on guitar.
+        I've spent all the free time I had the last few months just singing all your songs and I usually accompany myself on guitar.
         
         DJ: I bet all that practice has paid off!
         
-        YN: His smile is very shy. Like he really wants to be excited for other people, but he's seen everything.
+        YN: His smile is very cautious. Like he really wants to be excited for other people, but he's seen everything.
         
         He looks up at the sky and wanders off.
         
