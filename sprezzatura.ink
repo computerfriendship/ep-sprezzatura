@@ -397,7 +397,9 @@
             
             I was *made* for it.
             
-            It's as if years of voice lessons are suddenly irrelevant. It's a little bit frustrating.
+            It's as if years of voice lessons are suddenly irrelevant.
+            
+            It's a little bit frustrating.
             
             I was so excited to show them how hard I've worked to get this good, and now I'm just a natural? Not fair.
             
@@ -440,7 +442,7 @@
         Me: uh, yeah!
         -> rascal_ask
     * [no thanks]
-        Rascal: Very well. That's besides the point anyway.
+        Rascal: Very well. That's besides the point anyhow.
         -> rascal_ask
     
     = rascal_ask
@@ -493,7 +495,11 @@
         
         // CGs for each cassette?
         
-        YN: Option one. *Intensa* by The Transworld Depravity.
+        -> intensa
+        
+        = intensa
+        
+        YN: Option one: *Intensa* by The Transworld Depravity.
         
         The album that started it all. The Intensa genre is, in fact, named after this release.
         
@@ -513,6 +519,15 @@
         How does Rascal have it?
         
         It's certainly a tempting choice.
+        
+        -> hounds_of_kismet
+        
+        = hounds_of_kismet
+        
+        YN: Option two: *Over Him*
+        
+        // Ideas: Girl Trio, Men Punch Walls, two spies communicating on a number station who decided to make beats instead and it was captured by a random shortwave radio operator?
+        
         -> END
 
     = no_cuddles
@@ -543,6 +558,14 @@
     
     = talk_like_paz
     
+        Yeah, I'd better listen to something Ear Piercings. It'll remind me why I'm here.
+        
+        I still like Ear Piercings, I still like their songs!
+        
+        I'm sure this one will be great. Maybe even a fresh angle on their sound.
+        
+        // boilerplate below
+    
         You compliment the song, but you are more enthusiastic than usual.
         
         In fact, your are even smiling with your teeth!
@@ -559,13 +582,45 @@
         
     = paz_done_with_you
     
-        Your nerves are too much.
+        I can't.
         
-        It's stressing Paz out.
+        What if I don't like it?
         
-        They just want to be friends!
+        I never would have thought that possible before, but now?
         
-        They say they need a minute in the back to think, and they walk away.
+        I can't bring myself to hurt Paz like that.
+        
+        But I can't help that I don't care anymore!
+        
+        Fuck, I'm gonna have to quit!
+        
+        Paz has been looking at me, concerned.
+        
+        I just realized I haven't said anything.
+        
+        I blurt out "I c- sorry, I've gotta go I won't be able to!"
+        
+        I've gone into a heel turn with the thought that I could go somewhere else, but there isn't somewhere else.
+        
+        We're in a van with very little privacy.
+        
+        Paz just looks at me, head cocked.
+        
+        Paz: "You sure?"
+        
+        Me: "It's not, I-I don't"
+        
+        Paz: "Okay I'm gonna need a minute, uh, bye? For now? Okay yeah."
+        
+        Paz walks up to the back doors and lifts up a blanket I hadn't noticed.
+        
+        They pull it over themself and curl up into a ball.
+        
+        I am left standing awkwardly in the aisle.
+        
+        Eerie's in the driver's seat right behind me. Endo was leaning on a side wall this entire time; I just hadn't noticed.
+        
+        There really is no place to hide in this thing.
     
         -> endo_eerie_choice
     -> END
