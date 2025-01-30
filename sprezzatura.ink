@@ -434,21 +434,32 @@
     
     Can I call you madam?
     
-    * [uh, sure]
+    * [uh, sure] -> madam_yes
+    * [no thanks] -> madam_no
+        
+    = madam_yes
         YN: He stretches out his front paws as if about to introduce a circus act.
         
         Rascal: Ahh, lovely! Tranquil evening we're having, madam?
         
         Me: uh, yeah!
+        
         -> rascal_ask
-    * [no thanks]
+        
+    = madam_no
         Rascal: Very well. That's besides the point anyhow.
+    
         -> rascal_ask
     
     = rascal_ask
     
-    // make him say madam ONLY if you are a madam
-    Rascal: I wanted to know, madam, if you're up for some music listening!
+    { madam_yes:
+        Rascal: I wanted to know, madam, if you're up for some music listening!
+    }
+    
+    { madam_no:
+        Rascal: I only wanted to know, madam, if you're up for some music listening!
+    }
     
     And also some cuddling. I need snuggles.
     
@@ -483,7 +494,13 @@
         Oh, that's what was digging into my thigh.
         
         // ONLY say madam if you are a madam
-        Rascal: Ahh yes, those! Apologies for the indignity, madam.
+        { madam_yes:
+            Rascal: Ahh yes, those! Apologies for the indignity, madam. I bet those are pretty sharp.
+        }
+        
+        { madam_no:
+            Rascal: Ahh yes, those! My sincerest apologies for the indignity.
+        }
         
         YN:  He looks up with his wizened old-cat eyes and I forgive him.
         
