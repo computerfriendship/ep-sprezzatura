@@ -467,12 +467,10 @@
     
     Eerie looks at me. "He's very soft, you know."
     
-    // Make this part skippable entirely?
+    I think I will cuddle with the cat.
     
     * [cuddle]
         -> cuddles
-    * [no cuddles]
-        -> no_cuddles
         
     = cuddles
         Rascal: Ahh, magnificent!
@@ -542,12 +540,25 @@
         
         YN: Option two: *Garden Hermit* by Garden Hermit
         
-        // Ideas: Girl Trio, Men Punch Walls, two spies communicating on a number station who decided to make beats instead and it was captured by a random shortwave radio operator?
+        I've never heard of this one.
         
-        -> END
-
-    = no_cuddles
-        Rascal: Quiet time instead? Very well, very well. I'm going in for a nap.
+        Rascal sees the look in my eyes and begins to explain.
+        
+        Rascal: *Garden Hermit* is a wistful solo project about practices lost to time.
+        
+        Do you know about garden hermits?
+        
+        In the olden days of aristocrats and palatial country estates, rich men would hire a local to live in a little hut on their land.
+        
+        That fellow would be the garden hermit.
+        
+        They'd live out their days brewing tea, trimming the plants, tending to the garden. You might say they were living the way you can only afford to live when you've got money in the bank.
+        
+        Why the aristocrats didn't just give up their castle and live like their garden hermits I'll never know.
+        
+        It seems to me like those dukes and barons and whatnot felt they were getting the short end of the stick, and wished they could have the simple life.
+        
+        There's a story to this album, about a garden hermit and their wealthy patron,
         
         -> END
         
