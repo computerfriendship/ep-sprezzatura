@@ -529,7 +529,7 @@
         The colony believes it must create ten thousand years of art history in only a hundred years. That's gotta be rough.
         
         // We need a varnishing point relative time calculator. What does 1977 map to during the flattening?
-        *Intensa* was meant to be an album from the year XXXX(?). People from this time were never meant to hear it.
+        *Intensa* was meant to be an album from the year 4775. People from this time were never meant to hear it.
         
         We're never meant to hear anything made in Varnishing Point, for that matter.
         
