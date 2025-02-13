@@ -628,15 +628,28 @@
         
         Woofstyle is conscious, laid back, bassy. Deep in sound and substance.
         
-        Barkstyle is in-your-face aggravated attack-dog battery.
+        Barkstyle is in-your-face aggravated attack-dog battery. Releases a lot of pent-up emotion. Like a dental bone, you chew hard on it and you'll feel better.
         
         Ruffstyle is just straight-up dogs barking, I don't know what to tell you. Sounds like they're in heat most of the time.
         
-        I would say it's not music, but Paz has told me that's not okay and I have made efforts to change.
+        I would say it isn't music, but Paz has told me that's not okay, and I have made some efforts to change.
         
         This compilation has some amount of all three. You kinda have to turn the volume down for the ruffstyle ones. They can be a little much.
         
         -> music_choice
+        
+        YN: I want to peek at what's next in the cassette pile, but Rascal snatches it away.
+        
+        Rascal: I think three ought to be enough- I don't {madam_yes: wish}{madam_no: want} to decision paralyze you {madam_yes:, madam}.
+        
+        So what'll it be?
+        
+        * *Intensa* by The Transworld Depravity
+            -> END
+        * *Garden Hermit* by Garden Hermit
+            -> END
+        * *Howling at the Moon: a Dogstar Records Compilation 1982-1999*
+            -> END
         
         = music_choice
         
