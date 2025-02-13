@@ -606,7 +606,39 @@
         
         Rascal: And, to top it all off, they're deeply interested in the art of sending and receiving *signals*.
         
+        And in the satellite dog line of work, you send and receive a lot of signals from other dogs.
         
+        They love it!
+        
+        But those signals are usually boring business communications from one satellite to another: people's phone conversations, stock prices, corn futures. Not the latest doggy gossip, no {madam_yes: madam}.
+        
+        That... is reserved for after hours.
+        
+        While the world sleeps, these hungry puppies engage in a scene unlike any other.
+        
+        Powerful lyrics conveyed over strung-out beats assembled on the very equipment that strings together modern  telecommunications.
+        
+        Switchboard feedback transmitted across the stellar network until the noise becomes a new signal. 
+        
+        Dogs speaking the raw truth of their *lives*.
+        
+        YN: he appears to have taken on some of the dog rappers' grandiloquence.
+        
+        Rascal: There are three sounds represented by Dogstar Records: woofstyle, barkstyle, and ruffstyle.
+        
+        Woofstyle is conscious, laid back, bassy. Deep in sound and substance.
+        
+        Barkstyle is in-your-face aggravated attack-dog battery.
+        
+        Ruffstyle is just straight-up dogs barking, I don't know what to tell you. Sounds like they're in heat most of the time.
+        
+        I would say it's not music, but Paz has told me that's not okay and I have made efforts to change.
+        
+        This compilation has some amount of all three. You kinda have to turn the volume down for the ruffstyle ones. They can be a little much.
+        
+        -> music_choice
+        
+        = music_choice
         
     -> END
     
