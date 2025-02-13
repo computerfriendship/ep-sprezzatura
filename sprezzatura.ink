@@ -558,9 +558,55 @@
         
         It seems to me like those dukes and barons and whatnot felt they were getting the short end of the stick, and wished they could have the simple life.
         
-        There's a story to this album, about a garden hermit and their wealthy patron,
+        Anyway, if you found my ramble at all interesting, put this one on.
         
-        -> END
+        -> dogstar_records
+        
+        = dogstar_records
+        
+        Rascal sees the next cassette in the stack and his brows furrow.
+        
+        Rascal: Or, if you want something a bit more, rough and rousing...
+        
+        Option three: *Howling at the Moon: a Dogstar Records Compilation 1982-1999*.
+        
+        Me: what is this?
+        
+        Rascal: ah, so you don't know about Dogstar Records?
+        
+        Fascinating stuff.
+        
+        Do you know that there are more dogs in space than there are on earth?
+        
+        Me: WHAT?
+        
+        { madam_yes:
+            Rascal: Oh, my dear madam! I am sorry to have frightened you.
+            
+            I suppose it is hard news to take suddenly.
+            
+            The truth is, dogs form the backbone of Earth's space infrastructure. It's truly something for them to be proud of!
+        }
+        
+        { madam_no:
+            Rascal: Oh, don't be alarmed.
+            
+            Besides, something for them to be proud of!
+        }
+        
+        Rascal: In almost every satellite orbiting the earth right now, there is a dog operator- if not one or two.
+        
+        Me: B-but why *dogs*?
+        
+        Rascal: Dogs are perfectly suited to life in space!
+        
+        They never get bored, they like wide open spaces, they don't need a lot of oxygen...
+        
+        YN: This isn't lining up with what I know about dogs.
+        
+        Rascal: And, to top it all off, they're deeply interested in the art of sending and receiving *signals*.
+        
+        
         
     -> END
     
