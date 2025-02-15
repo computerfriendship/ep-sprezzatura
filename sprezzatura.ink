@@ -510,9 +510,9 @@
         
         // CGs for each cassette?
         
-        -> intensa
+        -> intensa_option
         
-        = intensa
+        = intensa_option
         
         YN: Option one: *Intensa* by The Transworld Depravity.
         
@@ -534,9 +534,9 @@
         
         It's certainly a tempting choice.
         
-        -> garden_hermit
+        -> garden_hermit_option
         
-        = garden_hermit
+        = garden_hermit_option
         
         YN: Option two: *Garden Hermit* by Garden Hermit
         
@@ -560,9 +560,9 @@
         
         Anyway, if you found my ramble at all interesting, put this one on.
         
-        -> dogstar_records
+        -> dogstar_records_option
         
-        = dogstar_records
+        = dogstar_records_option
         
         Rascal sees the next cassette in the stack and his brows furrow.
         
@@ -645,16 +645,21 @@
         So what'll it be?
         
         * *Intensa* by The Transworld Depravity
-            -> END
+            -> intensa
         * *Garden Hermit* by Garden Hermit
-            -> END
+            -> garden_hermit
         * *Howling at the Moon: a Dogstar Records Compilation 1982-1999*
-            -> END
+            -> dogstar_records
         
         = music_choice
         
     -> END
-    
+== intensa
+-> paz_convo
+== garden_hermit
+-> paz_convo
+== dogstar_records
+-> paz_convo
 == paz_convo ==
 
     Rascal returns to the back of the van for another nap.
