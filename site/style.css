@@ -1,0 +1,175 @@
+body, #stage, #blurred-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+body #blurred-bg {
+  filter: blur(20px) brightness(45%);
+  z-index: -1;
+}
+
+main {
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  width: min(100vw, 100vh / var(--aspect-ratio-h) * var(--aspect-ratio-w));
+  aspect-ratio: var(--aspect-ratio-w)/var(--aspect-ratio-h);
+  position: relative;
+}
+main #stage {
+  overflow: clip;
+}
+main #stage .sprite {
+  position: absolute;
+  transform: translate(-50%, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+.dialog-box {
+  background-color: white;
+  width: 850px;
+  min-height: 185px;
+  margin-bottom: 50px;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+.dialog-box.full {
+  contain: layout;
+  height: calc(100% - 100px);
+}
+.dialog-box.full #dialog-scrollable {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.dialog-box.full .dialog {
+  cursor: pointer;
+}
+.dialog-box.full .dialog-error samp {
+  background-color: #703633;
+  color: white;
+}
+.dialog-box.full #dialog-scrollable .dialog:hover .restore {
+  visibility: visible;
+}
+.dialog-box #dialog-scrollable {
+  font-size: 20px;
+  padding: 30px 0;
+  padding-right: 50px;
+  padding-left: 15px;
+  height: calc(100% - 60px);
+  width: calc(100% - 65px);
+  overflow-x: hidden;
+}
+.dialog-box #dialog-scrollable p {
+  margin: 10px 0;
+}
+.dialog-box #dialog-scrollable .quote {
+  color: var(--speaker-color);
+}
+.dialog-box #dialog-scrollable samp {
+  white-space: pre;
+}
+.dialog-box #dialog-scrollable .dialog-error samp b {
+  background-color: #703633;
+}
+.dialog-box #dialog-scrollable .dialog {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  gap: 8px;
+}
+.dialog-box #dialog-scrollable .dialog .restore {
+  height: 20px;
+  display: inline-block;
+  visibility: hidden;
+}
+.dialog-box #dialoglog-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+}
+.dialog-box #advance-story {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  width: 40px;
+}
+.dialog-box #advance-story.story-continue {
+  animation: bob 1s infinite alternate;
+}
+.dialog-box #advance-story.story-choice {
+  display: none;
+}
+.dialog-box #advance-story.story-finished {
+  background-color: black;
+  width: 15px;
+  right: 19px;
+  bottom: 19px;
+  opacity: 0.8;
+}
+.dialog-box:has(.dialog-with-quote):not(.full) #speaker-nameplate, .dialog-box.system-message #speaker-nameplate {
+  display: inline;
+}
+.dialog-box:has(.dialog-error):not(.full) {
+  background-color: #4b1815;
+  color: white;
+  height: 450px;
+}
+.dialog-box:has(.dialog-error):not(.full) #speaker-nameplate {
+  background-color: #ae4442 !important;
+  display: inline;
+  font-size: 0;
+}
+.dialog-box:has(.dialog-error):not(.full) #speaker-nameplate::after {
+  content: "Dialog error";
+  font-size: 16px;
+}
+.dialog-box #speaker-nameplate {
+  padding: 10px;
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+  display: none;
+  position: absolute;
+  top: -20px;
+}
+
+.choices {
+  display: block;
+  margin-top: 15px;
+  margin-left: 35px;
+  list-style: square;
+  animation: slide-in 0.5s;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 1500px 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@keyframes bob {
+  from {
+    translate: 0 8px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
