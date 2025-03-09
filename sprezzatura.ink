@@ -1,7 +1,17 @@
+// Set the title
+#title: Ear Piercings Visual Novel: Sprezzatura
+
+// Establish all speakers
+#speaker YN: 1b2866 you //shmilight smarkle
+#speaker RASCAL: ff0000 Rascal //sample orange from rascal domino cover
+#speaker EERIE: ff0000 Eerie //blue? black?
+#speaker PAZ: ff0000 Paz //pink? green?
+#speaker ENDO: ff0000 DJ Endocrinologist //yellow
+
 -> intro
 
 == intro ==
-    
+
     YN: My whole life, I've struggled with the feeling that if I love something, the best thing for me to do is keep my distance from it.
     
     Maybe I think I'll mess everything up if I get too close.
@@ -38,6 +48,7 @@
     But an opportunity like this comes by once in a lifetime.
     
         -> meet_the_band
+
 == meet_the_band ==
 
     YN: Paz (they/them, squirrel) is the first to hop out of the van, and they practically run at me.
@@ -49,32 +60,40 @@
         -> paz
     
     = paz
-    
-        Paz: I can't believe I'm really seeing youu! In real life!
+
+        PAZ: "I can't believe I'm really seeing youu! In real life!"
         
-        You kinda just look, uh, exactly how I expected you to! Huh!
+        "You kinda just look, uh, exactly how I expected you to! Huh!"
         
-        Wooooah, that wuz awkward! Sorry, I'm like, no filter sometimes.
+        "Wooooah, that wuz awkward! Sorry, I'm like, no filter sometimes."
         
-        Where's ur stuff? I'll start moving it out.
+        "Where's ur stuff? I'll start moving it out."
         
         * [It's all at the bottom of the stairs]
         
-            Me: I got everything at the bottom of the stairs!
+            YN: "I got everything at the bottom of the stairs!"
             
-            Paz: Swagalicious!
+            PAZ: "Swagalicious!"
         
-            -> paz2
+            -> bags_packed
             
         * [I don't know]
         
-            Paz: No probz! I'll find it!
+            PAZ: "No probz! I'll find it!"
         
+            -> bags_not_packed
+
+        = bags_packed
+
+            -> paz2
+
+        = bags_not_packed
+
             -> paz2
     
     = paz2
     
-    YN: They start past me towards the house, looking back to say "I meant it in a good way tho!"
+    PAZ: They start past me towards the house, looking back to say "I meant it in a good way tho!"
     
     Paz is high energy. I do not usually know what to say back to them, if I ever have time to get a word in.
     
@@ -94,27 +113,27 @@
         
         I refocus my eyes to find that he is staring at *me*.
         
-        DJ: "Sorry. Paz is right, you know, we really never got to look at you before."
+        ENDO: "Sorry. Paz is right, you know, we really never got to look at you before."
             
         * [Play it cool]
             
-            Me: "It's cool." I say.
+            YN: "It's cool." I say.
             
-            DJ: It's cool.
+            ENDO: "It's cool."
             
             YN: He's still studying me with his eyes.
-            
+
                 -> endo2
         
         * [Fangirl (gender neutral) about it]
             
             YN: I struggle to express any one emotion in particular, and end up squealing and wringing my hands.
             
-            DJ: Oh, I don't mean to stare!
+            ENDO: "Oh, I don't mean to stare!"
             
-            How awkward of me.
+            YN: How awkward of me.
             
-            YN: We both look at the ground.
+            We both look at the ground.
             
             He looks back up.
         
@@ -122,25 +141,25 @@
     
     = endo2
         
-        DJ: There really are no pictures of you out there, you know.
+        ENDO: "There really are no pictures of you out there, you know."
         
-        It's atypical for someone in music.
+        "It's atypical for someone in music."
         
-        Not that it's bad...
+        "Not that it's bad..."
         
-        Me: Yeah, I just keep a low profile I guess. Really glad you guys found me, and didn't expect me to be famous or anything.
+        YN: "Yeah, I just keep a low profile I guess. Really glad you guys found me, and didn't expect me to be famous or anything."
         
-        DJ: Well, you know, we were auditioning for a certain sensibility. Looking for someone who really gets *us*. All the better if they're a little mysterious, I think.
+        ENDO: "Well, you know, we were auditioning for a certain sensibility. Looking for someone who really gets *us*. All the better if they're a little mysterious, I think."
         
-        Me: I really only have social media to follow you guys.
+        YN: "I really only have social media to follow you guys."
         
-        But it's not to be mysterious, it just, you know, internet stuff doesn't feel real.
+        "But it's not to be mysterious, it just, you know, internet stuff doesn't feel real."
         
-        DJ: Feels like, just a model of yourself that's all cleaned up?
+        ENDO: "Feels like, just a model of yourself that's all cleaned up?"
         
-        Me: Yeah!
+        YN: "Yeah!"
         
-        DJ: I get it.
+        ENDO: "I get it."
         
         YN: We stand in silence for a while. The sun beats down on us but it's nice.
         
@@ -150,13 +169,13 @@
         
         Finally I have something to say.
         
-        Me: You know, getting into Ear Piercings made me so much better at guitar.
+        "You know, getting into Ear Piercings made me so much better at guitar."
         
-        I know you might not need that from me, 'cause I'm mainly here to sing and all, but it's true!
+        "I know you might not need that from me, 'cause I'm mainly here to sing and all, but it's true!"
         
-        I've spent all the free time I had the last few months just singing all your songs and I usually accompany myself on guitar.
+        "I've spent all the free time I had the last few months just singing all your songs and I usually accompany myself on guitar."
         
-        DJ: I bet all that practice has paid off!
+        ENDO: "I bet all that practice has paid off!"
         
         YN: His smile is very cautious. Like he really wants to be excited for other people, but he's seen everything.
         
@@ -168,9 +187,11 @@
         
         YN: I don't want to stand awkwardly on the front lawn so I walk towards the van.
         
-        In the drivers seat is the legendary Eerie Pierce (any pronouns, cat/dog).
+        In the drivers seat is the legendary Eerie Pierce (any pronouns including neopronouns, cat/dog).
         
-        Hir hair is floofy. Hir nose is always wet. Like a dog.
+        Hir hair is floofy. Hir nose is always wet.
+
+        Like a dog.
         
         He's flossing hir perfect teeth.
         
@@ -183,37 +204,30 @@
         I look closer.
         
         He is reinforcing the stitches in an old patch on hir jacket with the used floss.
+                   
+        EERIE: "Ayyyy, new kid! Didn't think we'd end up in white-picket-fence-world to pick you up."
         
-        Eerie: What's up?
-        
-        Me: Nothing much.
-        
-        // if you know where your bags are: "i've been preparing so it's not a big rush today"
-        // if you didn't: "uh, just been taking things as they go"
-        
-        Eerie: Ayyyy, new kid! Didn't think we'd end up in white-picket-fence-world to pick you up.
-        
-        Who we rescuing you from?
-        
+        "Who we rescuing you from?"
+                
         * [Don't get personal]
         
-            Me: Just a bad housing market is all. Still with my folks.
+            YN: "Just a bad housing market is all. Still with my folks."
+
+            EERIE: "Maaan, you picked the wrong business if you wanna move out of here!"
             
-            Couldn't get anything better at the prices I can pay.
+            "Can I call you man?"
             
-            Eerie: Maaan, you picked the wrong business if you wanna move out of here!
+            "But yeah, damn right it doesn't get better than this."
+    
+            "You've got what, like, two bathrooms at least? Maybe three?"
+                
+            "I just couldn't though. I just can't get along in neighborhoods like this."
             
-            Can I call you man?
+            "People are always looking at me funny."
             
-            But yeah, damn right it doesn't get better than this.
+            "The downtown places I end up are never this swanky, but hey!"
             
-            I just couldn't though. I just can't get along in neighborhoods like this.
-            
-            People are always looking at me funny.
-            
-            The downtown places I end up are never this swanky, but hey!
-            
-            At least in the city you can't do anything to stand out.
+            "At least in the city you can't do anything to stand out."
             
             YN: Looks like he's noticed that I haven't said anything.
             
@@ -221,21 +235,21 @@
                 
         * [I'm getting away from my parents]
             
-            Me: My parents.
+            YN: "My parents."
             
-            It gets pretty stifling living with them.
+            "It gets pretty stifling living with them."
+
+            EERIE: "Yeah, it's gotta be."
             
-            Eerie: Yeah, it's gotta be.
+            "I know the road life isn't easy and all, but at least you don't get your folks buggin' out at you for being at too many parties."
             
-            I know the road life isn't easy and all, but at least you don't get your folks buggin' out at you for being at too many parties.
+            "They'll say, "oh, your hobby looks fun!" and they don't think you're really working."
             
-            They'll say, "oh, your hobby looks fun!" and they don't think you're really working.
+            "But it's hard out there!"
             
-            But it's hard out there!
+            "And they say we don't wanna work. Like uh, we can, just make it something actually worth doing."
             
-            And they say we don't wanna work. Like uh, we can, just make it something actually worth doing.
-            
-            I think, anyway.
+            "I think, anyway."
             
             YN: Looks like he's noticed that I haven't said anything.
             
@@ -243,9 +257,9 @@
             
         * [It's not really a rescue]
         
-            Me: It's not like that, it's fine here.
+            YN: "It's not like that, it's fine here."
             
-            Eerie: Oh. Yeah, just joking around!
+            EERIE: "Oh. Yeah, just joking around!"
             
             YN: He smiles more than a little sheepishly.
             
@@ -255,13 +269,23 @@
         
         YN: He looks a little defeated.
         
-        Eerie: Sorry, got ahead of myself.
+        EERIE: "Sorry, got ahead of myself."
         
-        I'm Eerie, it's good to see you. We're gonna have fun.
+        "I'm Eerie, Eerie Pierce. It's good to see you. We're gonna have fun."
         
         YN: He reaches out hir hand for a surprisingly formal handshake.
         
         My fingers feel fishy in hir grip, but I don't mind how firm it is.
+        
+        EERIE: "So, where's all your things?"
+        
+        { bags_packed:
+            YN: "I've been getting things in order all week! We should be ready to go soon, Paz is getting my things."
+        }
+
+        { bags_not_packed:
+            YN: "Uh, just been taking things as they go."
+        }
         
             -> paz3
                 
@@ -273,7 +297,7 @@
         
         Eerie looks back down to the curb, one hand on the wheel, the other reaching out towards me.
         
-        Eerie: If we're gonna make it to Spencerport in time we've gotta book it. Everyone in!
+        EERIE: If we're gonna make it to Spencerport in time we've gotta book it. Everyone in!
         
         YN: The door is open. I climb up. I grip the railing to destiny. I'm in the passenger seat of Ear Piercings' van.
         
@@ -293,16 +317,14 @@
         
         I haven't forgotten that Rascal Domino is also in this van with us.
         
-        He's curled up, purring, at the center of a circle of lit candles that drip wax onto his blankets.
+        He's curled up, purring, at the center of a circle of lit candles that drip wax onto his blankets when the van shakes.
         
         I'm not gonna try talking to him yet.
         
         I might just be a little star-struck, even more than I am with the rest.
         
         I also do not want to wake him, because he is a cat.
-        
-        Cats gotta sleep, after all.
-        
+                
         Some of the other Piercings are animals too.
         
         But in society, they function closer to humans than wild animals.
@@ -316,6 +338,7 @@
         Eerie says that now might be our last chance to get some rest for a while, so I curl up as best I can in the passenger seat for a few hours.
     
             -> van_practice
+
 == van_practice ==
         
         YN: I'm shaken by someone and I gradually come to my senses.
