@@ -345,25 +345,27 @@
         
         It's Paz, grinning down at me.
         
-        Paz: We gotta practice!
+        PAZ: "We gotta practice!"
         
-        Wake up!
+        "Wake up!"
         
         YN: They shake me again.
         
-        Me: "Practice? In here? How?" I ask.
+        "Practice? In here? How?"
         
-        YN: There's not much room in the van. Barely space for Paz's drum kit, which they're setting up in the far corner.
+        There's not much room in the van. Barely space for Paz's drum kit, which they're setting up in the far corner.
         
-        Me: What are we gonna do for a PA?
+        "What are we gonna do for a PA?"
         
-        Eerie: Cars are full of speakers!
+        EERIE: "Cars are full of speakers!"
         
         YN: I look to see Eerie wiring DJ Endo's laptop directly into the van's stereo system with just some alligator clips.
         
-        The speakers crackle and hum, and suddenly a wild collage of samples emerges. Gentle sounds, like the quickest snippets of dreams I can't remember. They wash peacefully over the breakfast bar wrappers and crushed energy drink cans.
+        The speakers crackle and hum, and suddenly a wild collage of samples emerges.
+
+        Gentle sounds, like the quickest snippets of dreams I can't remember. Like sheer silken bed curtains, they wash peacefully over the breakfast bar wrappers and crushed energy drink cans.
         
-        Eerie reaches back behind the drivers' seat and picks up a bass.
+        Eerie reaches back behind the drivers' seat and grabs his bass by the neck.
         
         Ze shouts to me over the noise.
         
