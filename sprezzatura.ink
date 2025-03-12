@@ -369,74 +369,62 @@
         
         Ze shouts to me over the noise.
         
-        Eerie: Bass is in left channel, laptop is in right! I'm gonna patch you through the laptop!
+        EERIE: "Bass is in left channel, laptop is in right! I'm gonna patch you through the laptop!"
         
-        I can feel the frame of the van rattle as he soundchecks bass. Paz hands me a microphone and rushes back to the kit.
+        YN: I can feel the frame of the van rattle as he soundchecks bass. Paz shoves a microphone into my hands and rushes back to the kit.
+
+        First I tap the mic.
+            
+        I hear a pop. Through Endo's setup, even the pop feels musical.
+            
+        Then I try to sing.
+            
+        I haven't warmed up and I just woke up from a nap, and normally in a situation like that, I'd feel the congestion in my throat making my voice raspy.
+            
+        But I come through soft and clear through the speakers.
+            
+        It's more than a little shocking.
         
-        * [Sound-check your voice] -> tap_the_mic
-        * [Look for Rascal] -> look_for_rascal
+        I wonder where Rascal is.
+            
+        "Where's Rascal? Is he gonna be here?"
+            
+        Just then, a paw comes out from behind me and taps the mic. I look over my shoulder.
+            
+        It's Rascal Domino! Hanging from the car seat headrest.
+            
+        RD: "Shall we?"
+            
+        YN: His drawl is more Nashville, Tennessee in person.
         
-        = look_for_rascal
+        Rascal kicks up the band with an unexpected but utterly genius guitar chord.
+            
+        Now things are getting interesting.
+            
+        I know, for a fact, that my voice does not usually behave this way.
+            
+        I've trained for so long to understand how my voice works, to identify all its weak points and learn how to conceal them.
+            
+        Now that I'm with the band, I can just melt right in to their sound.
+            
+        I was *made* for it.
+            
+        It's as if years of voice lessons are suddenly irrelevant.
+            
+        It's a little bit frustrating.
+            
+        I was so excited to show them how hard I've worked to get this good, and now I'm just a natural? Not fair.
+            
+        Rascal looks at me. *Through* me.
         
-            YN: I wonder where Rascal is.
-            
-            Me: Where's Rascal? Is he gonna be here?
-            
-            YN: Just then, a paw comes out from behind me and taps the microphone. I look over my shoulder.
-            
-            It's Rascal Domino! Hanging from the car seat headrest.
-            
-            RD: Shall we?
-            
-            YN: His drawl is more Nashville, Tennessee in person.
-            
-                -> song
-            
-        = tap_the_mic
+        RD: "You're thinking. Don't think."
         
-            YN: First I tap the mic.
-            
-            I hear a pop. Through Endo's setup, even the pop feels musical.
-            
-            Then I try to sing.
-            
-            I haven't warmed up and I just woke up from a nap, and normally in a situation like that, I'd feel the congestion in my throat making my voice raspy.
-            
-            But I come through soft and clear through the speakers.
-            
-            It's more than a little shocking.
-            
-                -> song
+        YN: Maybe I should have fun with this...
         
-        = song
+        -> rascal_shows_you_music
         
-            YN: Rascal kicks up the band with an unexpected but admittedly genius guitar chord.
-            
-            Now things are getting interesting.
-            
-            I know, for a fact, that my voice does not usually behave this way.
-            
-            I've trained for so long to understand how my voice works, to identify all its weak points and learn how to conceal them.
-            
-            Now that I'm with the band, I can just melt right in to their sound.
-            
-            I was *made* for it.
-            
-            It's as if years of voice lessons are suddenly irrelevant.
-            
-            It's a little bit frustrating.
-            
-            I was so excited to show them how hard I've worked to get this good, and now I'm just a natural? Not fair.
-            
-            Rascal looks at me. *Through* me.
-        
-            Rascal: You're thinking. Don't think.
-        
-            Maybe I should have fun with this...
-        
-            -> rascal_shows_you_music
-        
-        -> END
+    -> END
+    
 == rascal_shows_you_music ==
     
     YN: Rehearsal was fun after that. We know what we're gonna do tonight for the show, and I felt confidence in my abilities like never before.
